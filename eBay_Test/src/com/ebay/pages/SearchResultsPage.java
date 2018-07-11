@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 public class SearchResultsPage {
 
+   PageObjects SignInPage;
    private static final By SEARCH_BOX = By.id("  ");
    private static final By SEARCH_INPUT = By.id("  ");
    private static final By SEARCH_GO_BUTTON = By.id("  ");
